@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once "Auth/dbh.php";
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +15,6 @@ session_start();
 <?php include 'Components/banner.php' ?>
 
 <div class="container">
-
     <h1 style="margin-top: 20px;">Playlists</h1>
 
     <h5 style="margin-top: 20px;"><a href="addplaylist.php" style="color: black;">Add a new playlist</a></h5>
