@@ -1,3 +1,8 @@
+<?php
+session_start();
+include_once "dbh.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,24 +15,24 @@
 <?php include '../Components/banner.php' ?>
 
 <div class="container" style="margin-top: 50px;">
-    <form action="">
+    <form method="post" action="register.php">
         <div class="form-group">
-            <label for="firstname">First name:</label>
-            <input type="text" class="form-control" id="firstname">
-        </div>
-        <div class="form-group">
-            <label for="lastname">Last name:</label>
-            <input type="text" class="form-control" id="lastname">
-        </div>
-        <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd">
+            <label for="firstname">Username</label>
+            <input type="text" name="username" class="form-control" id="firstname">
         </div>
         <div class="form-group">
             <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email">
+            <input type="email" name="email" class="form-control" id="email">
         </div>
-        <button type="submit" class="btn btn-primary">Register</button>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" name="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Confirm password:</label>
+            <input type="password" name="password2" class="form-control" id="pwd">
+        </div>
+        <button type="submit" name="register_btn" class="btn btn-primary">Register</button>
     </form>
 </div>
 
