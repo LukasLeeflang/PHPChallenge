@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f835c8c-b293-43f3-bdfd-58dd97d1b339" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Auth/dbh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Components/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addplaylist.php" beforeDir="false" afterPath="$PROJECT_DIR$/addplaylist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +98,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,11 +146,13 @@
       <workItem from="1528698738612" duration="690000" />
       <workItem from="1528705688212" duration="4883000" />
       <workItem from="1528873463685" duration="1921000" />
+      <workItem from="1528877070083" duration="56000" />
+      <workItem from="1528877523938" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23766000" />
+    <option name="totallyTimeSpent" value="23832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="23" width="1743" height="1044" extended-state="0" />
@@ -320,33 +316,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#li#1;n#ul#1;n#nav#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Auth/dbh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Auth/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Auth/membersite_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth/login.php" />
+    <entry file="file://$PROJECT_DIR$/Auth/membersite_config.php" />
     <entry file="file://$PROJECT_DIR$/addplaylist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -365,6 +339,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth/dbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
